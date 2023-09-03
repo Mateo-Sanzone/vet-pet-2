@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body {
+  font-family: 'Open Sans';
+  background-color: #e6e6e6;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  width: 100%;
+}
+
+
+/* ---- HEADER ----- */
+header {
+  display: flex; /* Alineación de los elementos */
+  align-items: center; /* Centrar verticalmente */
+  justify-content: space-between; /* Espacio entre los elementos */
+  background-color: white;
+  color: #fea021;
+  padding: 10px 0;
+  position: fixed;
+  width: 100vw;
+  height: 55px;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  
+}
+
+.logo img {
+  width: 120px; /* Tamaño del logo */
+  margin-left: 20px; /* Espacio a la izquierda del logo */
+}
+
+.navbar{
+  margin-right: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  padding-right: 20px;
+}
+
+.navbar a {
+  font-size: 1.25em;
+  text-decoration: none;
+  color: #fea021;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* ----- BARRA BUSQUEDA ------ */
+.search-container {
+  height: calc( 100vh - 80vh );
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 75px 100px 0px 100px;
+}
+  
+.search-input {
+  border: 1px solid #ccc;
+  padding: 10px 100px 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+  transition: border-color 0.3s;
+}
+  
+.search-input:hover {
+  border-color: #fea021;
+}
+
+
+
+/* --------- GRILLA --------------- */
+.product-grid {
+  display: grid;
+  padding: 0px 100px 50px 100px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Diseño responsive de la cuadrícula */
+  grid-gap: 20px;
+}
+@media screen and (max-width: 768px) 
+{
+    .product 
+    {
+        border: 1px solid #ddd;
+        padding: 15px;
+        background-color: white;
+        text-align: center;
+    }
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.product{
+  background-color: white;
+  border: 1px solid;
+  border-color: #c7c7c7;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; /* Ordenar verticalmente */
+  align-items: center;
+}
+/*.product:hover{
+  border-color: #fea021;
+}*/
+
+.product-container{
+  overflow: hidden;
+}
+
+.product img{
+  width: 100%;
+  border-bottom: 1px solid #fea021;
+  height: auto;
+  object-fit: cover;
+}
+
+.product button{
+  margin-top: 1em;
+  width: 100%;
+  height: 5em;
+  border: 0px;
+  color: white;
+  background-color: #485600;
+}
+.product button:hover{
+  background-color: #fea021;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------- FOOTER ----- */
+
+.footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+.footer-links h3{
+    font-size: 0.85em;
+}
+
+.column li a {
+    font-size: 0.85em;
+    text-decoration: none;
+    color: #fea021;
+}
+
+.column li a:hover {
+    text-decoration: underline;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+    text-align: left;
+}
+
+.column h3 {
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 5px;
+}
+
+.column img{
+    width: 175px;
+    margin: 0 0 0 100px;
+}
+
+.rights {
+    color: white;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px 0;
+    background-color: #d47800;
+    width: 100%;
+}
+
+
+
+
+
+
+/*
+:root{
+    --verde: #93dc0c;
+    --naranja: #fea021;
+    --amarillo: #e9d71c;
+    --blanco: #e6e6e6;
+}*/

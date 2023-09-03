@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+::selection{
+    background-color: #e9d71c;
+    color: #e6e6e6;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #F90;	
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #e6e6e6;
+    font-family: 'Open Sans';
+}
+
+.content {
+    margin-top: 60px; /* Espacio para evitar que el contenido se solape con el encabezado */
+    padding: 20px;
+}
+
+/* ----------------------------------------------------------------------------------------- HEADER ----- */
+header {
+    display: flex; /* Alineación de los elementos */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-between; /* Espacio entre los elementos */
+    background-color: white;
+    color: #fea021;
+    padding: 10px 0;
+    position: fixed;
+    width: 100vw;
+    height: 75px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+}
+
+.logo img {
+    width: 120px; /* Tamaño del logo */
+    margin-left: 20px; /* Espacio a la izquierda del logo */
+}
+
+.navbar{
+    margin-right: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    padding-right: 20px;
+}
+
+.navbar a {
+    font-size: 1.25em;
+    text-decoration: none;
+    color: #fea021;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* --------------------------------------------------------------------------------  HERO SECTION ----- */
+
+.hero-section{
+    margin-top: 75px;
+    height: calc( 100vh - 75px );
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #485600; 
+}
+
+.hero-section .texto{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.hero-section .titulo{
+    position: relative;
+    font-family: 'Modak';
+    font-size: 10.5em;
+}
+
+.hero-section .desc{
+    font-size: 2em;
+}
+
+.subrayado{
+    color: #d47800;
+    text-decoration: underline wavy #d47800;
+}
+
+.imagenes img{
+    max-width: 22.5em;
+}
+
+/* ------------------------------------------------------------------------------------------  PRODUCTOS ----- */
+
+.productos{
+    background: #d47800;
+    height: 200vh;
+}
+
+/* ------------------------------------------------------------------------------------------  FORMULARIO ----- */
+
+.formulario{
+    background: #485600;
+    height: 100vh;
+}
+
+/* ------------------------------------------------------------------------------------------- FOOTER ----- */
+
+.footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+.footer-links h3{
+    font-size: 0.85em;
+}
+
+.column li a {
+    font-size: 0.85em;
+    text-decoration: none;
+    color: #fea021;
+}
+
+.column li a:hover {
+    text-decoration: underline;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+    text-align: left;
+}
+
+.column h3 {
+    margin-bottom: 10px;
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.column ul li {
+    margin-bottom: 5px;
+}
+
+.column img{
+    width: 175px;
+    margin: 0 0 0 100px;
+}
+
+.rights {
+    color: white;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px 0;
+    background-color: #d47800;
+    width: 100%;
+}
+
+
+
+
+
+
+/*
+:root{
+    --verde: #93dc0c;
+    --naranja: #fea021;
+    --amarillo: #e9d71c;
+    --blanco: #e6e6e6;
+}*/
