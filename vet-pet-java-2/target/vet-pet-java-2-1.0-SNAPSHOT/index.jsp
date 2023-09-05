@@ -24,14 +24,31 @@
             </div>
         </section>
         
-        <section class="productos">
-
-
-
+        <section class="que-es-vetpet">
+            <span class="titulo">Que es VetPet?</span>
+            <div class="info">
+                <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="texto">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p class="texto">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
         </section>
 
-        <section class="formulario">
-
+        <section class="preguntas-frecuentes">
+            <span class="titulo">FAQ</span>
+            <div class="container">
+                <div class="faq">
+                    <span class="pregunta">Lorem ipsum dolor?</span>
+                    <span class="respuesta">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</span>
+                </div>
+                <div class="faq">
+                    <span class="pregunta">Lorem ipsum dolor?</span>
+                    <span class="respuesta">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</span>
+                </div>
+                <div class="faq">
+                    <span class="pregunta">Lorem ipsum dolor?</span>
+                    <span class="respuesta">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</span>
+                </div>
+            </div>
         </section>
         
     </main>
@@ -45,7 +62,7 @@
                     <img src=".imagenes/svg/icono.svg" alt="Icono del Footer">
                 </div>
                 <div class="column">
-                    <h3>Enlaces Útiles</h3>
+                    <h3>Enlaces ï¿½tiles</h3>
                     <ul>
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#">Servicios</a></li>
@@ -56,14 +73,14 @@
                 <div class="column">
                     <h3>Otros enlaces</h3>
                     <ul>
-                        <li><a href="#">Términos de Uso</a></li>
-                        <li><a href="#">Polí­tica de Privacidad</a></li>
+                        <li><a href="#">Tï¿½rminos de Uso</a></li>
+                        <li><a href="#">Polï¿½ï¿½tica de Privacidad</a></li>
                         <li><a href="#">Aviso Legal</a></li>
                         <li><a href="#">+54 9 11 1234-5678</a></li>
                     </ul>
                 </div>
             </div>
-            <p class="rights">© 2023 Todos los derechos reservados.</p>
+            <p class="rights">ï¿½ 2023 Todos los derechos reservados.</p>
         </div>
     </footer>
 

@@ -95,6 +95,13 @@ header {
     text-decoration: underline;
 }
 
+.titulo{
+    position: relative;
+    font-family: 'Modak';
+    font-size: 10.5em;
+    color: white;
+}
+
 /* --------------------------------------------------------------------------------  HERO SECTION ----- */
 
 .hero-section{
@@ -112,12 +119,6 @@ header {
     color: white;
 }
 
-.hero-section .titulo{
-    position: relative;
-    font-family: 'Modak';
-    font-size: 10.5em;
-}
-
 .hero-section .desc{
     font-size: 2em;
 }
@@ -131,18 +132,71 @@ header {
     max-width: 22.5em;
 }
 
-/* ------------------------------------------------------------------------------------------  PRODUCTOS ----- */
+/* ------------------------------------------------------------------------------------------  QUE ES VETPET ----- */
 
-.productos{
+.que-es-vetpet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     background: #d47800;
-    height: 200vh;
+    height: 100vh;
 }
 
-/* ------------------------------------------------------------------------------------------  FORMULARIO ----- */
+.que-es-vetpet .titulo{
+    
+}
 
-.formulario{
+.que-es-vetpet .info{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.que-es-vetpet .texto{
+    font-size: 1.5em;
+    width: 25%;
+    height: 60%;
+}
+
+/* ------------------------------------------------------------------------------------------  FAQ ----- */
+
+.preguntas-frecuentes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: #485600;
     height: 100vh;
+}
+
+.preguntas-frecuentes .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+}
+
+.faq{
+    display: flex;
+    flex-direction: column;
+}
+
+.faq span{
+    font-size: 1.75em;
+    color: white;
+}
+
+.faq .pregunta{
+    font-size: 2.25em;
+    font-weight: 600;
+    color: #d47800;
+}
+
+.faq .respuesta{
+    
 }
 
 /* ------------------------------------------------------------------------------------------- FOOTER ----- */
